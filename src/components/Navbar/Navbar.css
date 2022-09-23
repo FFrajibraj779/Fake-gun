@@ -1,0 +1,25 @@
+.anim{
+    
+    animation:navlink 1s ease-in forwards infinite ;
+}
+
+@keyframes navlink {
+    0%{
+        color: blue;
+
+    }
+    25%{
+    color: aqua;
+    }
+    50%{
+    color: chartreuse;
+    }
+    75%{
+color: blanchedalmond;
+    }
+    100%{
+        color:purple ;
+
+    }
+    
+}
